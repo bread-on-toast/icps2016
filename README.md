@@ -1,7 +1,5 @@
 # [ICPS 2016](http://icps2016.com/)
 
-[![Build Status](live)](http://icps2016.com/)
-
 By [Norbert Bonnici](http://norbert.bonnici.co)
 
 ## License
