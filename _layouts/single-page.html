@@ -6,7 +6,17 @@
   <body class="no-sidebar">
 
     {% include header.html %}
+
+    <!-- Main -->
+	<article id="main">
+
+		<header class="special container">
+			<span class="icon {{page.icon}}"></span>
+			<h2>{{page.longTitle}}</h2>
+			<p>{{apge.subtitle}}</p>
+		</header>
         {{ content }}
+    </article>
     {% include footer.html %}
     {% include scripts.html %}
   </body>
