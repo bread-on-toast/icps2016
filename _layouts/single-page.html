@@ -13,7 +13,10 @@
 		<header class="special container">
 			<span class="icon {{page.icon}}"></span>
 			<h2>{{page.title}}</h2>
-			<p>{{apge.subTitle}}</p>
+			{% if page.subTitle %}<p>{{page.subTitle}}</p>{% endif %}
+            {% if page.image %}<a class="image featured">
+                <img src="images/{{page.image}}" />
+            </a>{% endif %}
 		</header>
         {{ content }}
     </article>
