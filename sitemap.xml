@@ -4,115 +4,121 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://icps2016.com/</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://icps2016.com/index.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/index.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/arrival.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/accommodation.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/malta.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/uom.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/index.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/timetable.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/guests.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/guests.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/students.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/students.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/workshops.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/workshops.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/excursions.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/excursions.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/events.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/events.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/agm.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/agm.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/program/iaps.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>http://icps2016.com/programme/iaps.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/organisers.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/faq.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/contact.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/news.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/icps.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/iaps.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/supporters.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/registration.html</loc>
-  <lastmod>2015-08-12T12:56:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/welcome-to-malta.html</loc>
+  <lastmod>2015-12-20T16:30:49+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 </urlset>
