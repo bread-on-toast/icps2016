@@ -67,12 +67,22 @@ var current = document.getElementById('1');
 
   function highlite(el)
   {
-  	if (current == null)current = document.getElementById('2');
-  	if (current == null)current = document.getElementById('3');
-  	if (current == null)current = document.getElementById('4');
-  	if (current == null)current = document.getElementById('5');
-  	if (current == null)current = document.getElementById('6');
-     if (current != null)
+  	if (current === undefined || current === null) {
+  		current = document.getElementById('2');
+  	}
+  	if (current === undefined || current === null) {
+  		current = document.getElementById('3');
+  	}
+  	if (current === undefined || current === null) {
+  		current = document.getElementById('4');
+  	}
+  	if (current === undefined || current === null) {
+  		current = document.getElementById('5');
+  	}
+  	if (current === undefined || current === null) {
+  		current = document.getElementById('6');
+  	}
+    if (current != null)
      {
          current.className = "";
      }
