@@ -13,80 +13,51 @@ $(function(){
 
 <!-- Changes done : introduced a js script below which gets current url , matches it with one of the menu urls, highlights the match -->
 <!-- Nothing else was changed except for main css, commented the previous js and the relevant #header -->
+<style>
+ul.navigation li.highlight{ background:#808080;}
+ul.navigation li.highlight a{ color:#f5f5f5; cursor:default;}
+</style>
 
     <h1 id="logo"><a href="{{ site.url }}">ICPS 2016 <span>Malta</span></a></h1>
     <nav id="nav">
         <ul>
             <li class="submenu">
-                <a id="1" class="highlite" onclick="highlite(this);" href="{{ site.url }}">Home</a>
+                <a class="highlight" onclick="highlite(this);" href="{{ site.url }}">Home</a>
                 <ul>
                     <li class="submenu">
                         <a onclick="highlite(this);" href="{{ site.url }}/location/index.html">Location</a>
                         <ul>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/location/arrival.html">Arrival</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/location/accommodation.html">Accommodation</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/location/malta.html">The islands</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/location/uom.html">University of Malta</a></li>
+                            <li><a href="{{ site.url }}/location/arrival.html">Arrival</a></li>
+                            <li><a href="{{ site.url }}/location/accommodation.html">Accommodation</a></li>
+                            <li><a href="{{ site.url }}/location/malta.html">The islands</a></li>
+                            <li><a href="{{ site.url }}/location/uom.html">University of Malta</a></li>
                         </ul>
                     </li>
                     <li class="submenu">
-                        <a onclick="highlite(this);" href="{{ site.url }}/programme/timetable.html">Programme</a>
+                        <a href="{{ site.url }}/programme/timetable.html">Programme</a>
                         <ul>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/timetable.html">Timetable</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/guests.html">Guest Lectures</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/students.html">Student Lectures</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/workshops.html">Workshops</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/excursions.html">Excursions</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/events.html">Social Events</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/agm.html">AGM</a></li>
-                            <li><a onclick="highlite(this);" href="{{ site.url }}/programme/iaps.html">IAPS Workshops</a></li>
+                            <li><a href="{{ site.url }}/programme/timetable.html">Timetable</a></li>
+                            <li><a href="{{ site.url }}/programme/guests.html">Guest Lectures</a></li>
+                            <li><a href="{{ site.url }}/programme/students.html">Student Lectures</a></li>
+                            <li><a href="{{ site.url }}/programme/workshops.html">Workshops</a></li>
+                            <li><a href="{{ site.url }}/programme/excursions.html">Excursions</a></li>
+                            <li><a href="{{ site.url }}/programme/events.html">Social Events</a></li>
+                            <li><a href="{{ site.url }}/programme/agm.html">AGM</a></li>
+                            <li><a href="{{ site.url }}/programme/iaps.html">IAPS Workshops</a></li>
                         </ul>
                     </li>
-                    <li><a onclick="highlite(this);" href="{{ site.url }}/organisers.html">Organisers</a></li>
-                    <li><a onclick="highlite(this);" href="{{ site.url }}/faq.html">FAQ</a></li>
-                    <li><a onclick="highlite(this);" href="{{ site.url }}/contact.html">Contact</a></li>
+                    <li><a href="{{ site.url }}/organisers.html">Organisers</a></li>
+                    <li><a href="{{ site.url }}/faq.html">FAQ</a></li>
+                    <li><a href="{{ site.url }}/contact.html">Contact</a></li>
                 </ul>
             </li>
-            <li><a id="2" onclick="highlite(this);" href="{{ site.url }}/news.html">News</a></li>
-            <li><a id="3" onclick="highlite(this);" href="{{ site.url }}/icps.html">ICPS</a></li>
-            <li><a id="4" onclick="highlite(this);" href="{{ site.url }}/iaps.html">IAPS</a></li>
-            <li><a id="5" onclick="highlite(this);" href="{{ site.url }}/supporters.html">Supporters</a></li>
-            <li><a id="6" onclick="highlite(this);" href="{{ site.url }}/registration.html" class="button special">Registration</a></li>
+            <li class="highlight"><a href="{{ site.url }}/news.html">News</a></li>
+            <li><a href="{{ site.url }}/icps.html">ICPS</a></li>
+            <li><a href="{{ site.url }}/iaps.html">IAPS</a></li>
+            <li><a href="{{ site.url }}/supporters.html">Supporters</a></li>
+            <li><a href="{{ site.url }}/registration.html" class="button special">Registration</a></li>
         </ul>
     </nav>
 </header>
 
-<script type="text/javascript">
-var current = document.getElementById('1');
 
-  function highlite(el)
-  {
-  	if (current === undefined || current === null) {
-  		current = document.getElementById('2');
-  	}
-  	if (current === undefined || current === null) {
-  		current = document.getElementById('3');
-  	}
-  	if (current === undefined || current === null) {
-  		current = document.getElementById('4');
-  	}
-  	if (current === undefined || current === null) {
-  		current = document.getElementById('5');
-  	}
-  	if (current === undefined || current === null) {
-  		current = document.getElementById('6');
-  	}
-    if (current != null)
-     {
-         current.className = "";
-     }
-     el.className = "highlite";
-     current = el;
-  }
-</script> 
-<style>
-#nav a.highlite {
-    background-color: #808080;
-    color: white;
-}
-</style>
