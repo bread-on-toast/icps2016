@@ -13,12 +13,6 @@ $(function(){
 
 <!-- Changes done : introduced a js script below which gets current url , matches it with one of the menu urls, highlights the match -->
 <!-- Nothing else was changed except for main css, commented the previous js and the relevant #header -->
-<style>
-#nav a.highlite {
-    background-color: #808080;
-    color: white;
-}
-</style>
 
     <h1 id="logo"><a href="{{ site.url }}">ICPS 2016 <span>Malta</span></a></h1>
     <nav id="nav">
@@ -90,4 +84,9 @@ var current = document.getElementById('1');
      current = el;
   }
 </script> 
-
+<style>
+#nav a.highlite {
+    background-color: #808080;
+    color: white;
+}
+</style>
