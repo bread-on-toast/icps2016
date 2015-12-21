@@ -24,7 +24,7 @@ $(function(){
     <nav id="nav">
         <ul>
             <li class="submenu">
-                <a id="ZezimaZ0mgH4x1337MLGPopeSauce" class="highlite" onclick="highlite(this);" href="{{ site.url }}">Home</a>
+                <a id="1" class="highlite" onclick="highlite(this);" href="{{ site.url }}">Home</a>
                 <ul>
                     <li class="submenu">
                         <a onclick="highlite(this);" href="{{ site.url }}/location/index.html">Location</a>
@@ -53,20 +53,25 @@ $(function(){
                     <li><a onclick="highlite(this);" href="{{ site.url }}/contact.html">Contact</a></li>
                 </ul>
             </li>
-            <li><a onclick="highlite(this);" href="{{ site.url }}/news.html">News</a></li>
-            <li><a onclick="highlite(this);" href="{{ site.url }}/icps.html">ICPS</a></li>
-            <li><a onclick="highlite(this);" href="{{ site.url }}/iaps.html">IAPS</a></li>
-            <li><a onclick="highlite(this);" href="{{ site.url }}/supporters.html">Supporters</a></li>
-            <li><a onclick="highlite(this);" href="{{ site.url }}/registration.html" class="button special">Registration</a></li>
+            <li><a id="2" onclick="highlite(this);" href="{{ site.url }}/news.html">News</a></li>
+            <li><a id="3" onclick="highlite(this);" href="{{ site.url }}/icps.html">ICPS</a></li>
+            <li><a id="4" onclick="highlite(this);" href="{{ site.url }}/iaps.html">IAPS</a></li>
+            <li><a id="5" onclick="highlite(this);" href="{{ site.url }}/supporters.html">Supporters</a></li>
+            <li><a id="6" onclick="highlite(this);" href="{{ site.url }}/registration.html" class="button special">Registration</a></li>
         </ul>
     </nav>
 </header>
 
 <script type="text/javascript">
-var current = document.getElementById('ZezimaZ0mgH4x1337MLGPopeSauce');
+var current = document.getElementById('1');
 
   function highlite(el)
   {
+  	if (current == null)current = document.getElementById('2');
+  	if (current == null)current = document.getElementById('3');
+  	if (current == null)current = document.getElementById('4');
+  	if (current == null)current = document.getElementById('5');
+  	if (current == null)current = document.getElementById('6');
      if (current != null)
      {
          current.className = "";
