@@ -111,6 +111,32 @@
 		width: 1400px;
 	}
 
+	@media screen and (max-width: 2560px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 1500px;
+			min-width: 1200px;
+		}
+
+		.container.\37 5\25 {
+			width: 900px;
+		}
+
+		.container.\35 0\25 {
+			width: 600px;
+		}
+
+		.container.\32 5\25 {
+			width: 300px;
+		}
+
+		.container {
+			width: 1200px;
+		}
+
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
