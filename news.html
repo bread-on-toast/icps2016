@@ -9,6 +9,11 @@ icon: fa-newspaper-o
         {% for post in site.posts %}
         <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {% if page.image %}
+            <a class="image featured">
+                <img src="post-images/{{page.image}}" />
+            </a>
+            {% endif %}
             {{ post.excerpt }}
             <section class="special">
                 <ul class="buttons">
