@@ -10,8 +10,13 @@ layout: landing-page
         <span class="icon fa-newspaper-o"></span>
     </header>
 
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <section class="style4 wrapper container">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {% if post.image %}
+        <a class="image featured">
+            <img src="post-images/{{post.image}}" />
+        </a>
+        {% endif %}
         {{ post.excerpt }}
     </section>
 

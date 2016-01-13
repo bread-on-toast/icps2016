@@ -2,6 +2,7 @@
 layout: post
 title: "Welcome to the University Residence"
 date: "2016-01-12"
+icon: "fa-bed"
 image: "residence.jpg"
 ---
 
