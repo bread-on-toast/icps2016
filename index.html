@@ -13,43 +13,45 @@ layout: landing-page
 
     <div id="world-map" style="width: 600px; height: 400px"></div>
     <script>
-      var heatData = {
-        "AT": 13,
-        "CH": 1,
-        "CZ": 1,
-        "DE": 35,
-        "DK": 7,
-        "ES": 5,
-        "FI": 20,
-        "FR": 2,
-        "GB": 7,
-        "GR": 4,
-        "HR": 18,
-        "HU": 11,
-        "IT": 12,
-        "MX": 1,
-        "NL": 3,
-        "PL": 7,
-        "RO": 1,
-        "RS": 4,
-        "SE": 2,
-        "TR": 2,
-        "UA": 4,
-        "US": 2
-      };
+      $(function(){
+        var heatData = {
+          "AT": 13,
+          "CH": 1,
+          "CZ": 1,
+          "DE": 35,
+          "DK": 7,
+          "ES": 5,
+          "FI": 20,
+          "FR": 2,
+          "GB": 7,
+          "GR": 4,
+          "HR": 18,
+          "HU": 11,
+          "IT": 12,
+          "MX": 1,
+          "NL": 3,
+          "PL": 7,
+          "RO": 1,
+          "RS": 4,
+          "SE": 2,
+          "TR": 2,
+          "UA": 4,
+          "US": 2
+        };
 
-      $('#world-map').vectorMap({
-        map: 'world_mill',
-        series: {
-          regions: [{
-            values: heatData,
-            scale: ['#C8EEFF', '#0071A4'],
-            normalizeFunction: 'polynomial'
-          }]
-        },
-        onRegionTipShow: function(e, el, code) {
-          el.html(el.html() + ' ( ' + heatData[code] + ' participants)');
-        }
+        $('#world-map').vectorMap({
+          map: 'world_mill',
+          series: {
+            regions: [{
+              values: heatData,
+              scale: ['#C8EEFF', '#0071A4'],
+              normalizeFunction: 'polynomial'
+            }]
+          },
+          onRegionTipShow: function(e, el, code) {
+            el.html(el.html() + ' ( ' + heatData[code] + ' participants)');
+          }
+        });
       });
     </script>
   </section>
