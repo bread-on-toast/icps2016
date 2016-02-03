@@ -11,7 +11,7 @@ layout: landing-page
       <span class="icon fa-map-o"></span>
     </header>
 
-    <div id="world-map"></div>
+    <div id="world-map" style="height: 600px"></div>
     <script>
       $(function(){
         var heatData = {
@@ -49,7 +49,7 @@ layout: landing-page
             }]
           },
           onRegionTipShow: function(e, el, code) {
-            el.html(el.html() + ' ( ' + heatData[code] + ' participants)');
+            el.html(el.html() + ' (' + heatData[code] + ' participant(s))');
           }
         });
       });
