@@ -4,38 +4,51 @@ layout: landing-page
 
 <!-- Main -->
 <article id="main">
-    <header class="special container">
-        <h2><a href="news.html">News</a></h2>
-        <span class="icon fa-newspaper-o"></span>
-    </header>
+  <header class="special container">
+    <h2>Participant Heat Map</h2>
+    <span class="icon fa-map-o"></span>
+  </header>
 
-    {% for post in site.posts limit:1 %}
-    <section class="style4 wrapper container">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        {% if post.image %}
-        <a class="image featured">
-            <img src="post-images/{{post.image}}" />
-        </a>
-        {% endif %}
-        {{ post.excerpt }}
-        <ul class="actions">
-            <li><a href="{{ site.url }}{{ post.url }}" class="button">Read More</a></li>
-        </ul>
-    </section>
-    {% endfor %}
+  {% for post in site.posts limit:1 %}
+  <section class="style4 wrapper container">
+    <div id="world-map" style="width: 600px; height: 400px"></div>
+    <script>
+      $(function() {
+        $('#world-map').vectorMap();
+      });
+    </script>
+  </section>
+
+  <header class="special container">
+    <h2><a href="news.html">News</a></h2>
+    <span class="icon fa-newspaper-o"></span>
+  </header>
+
+  {% for post in site.posts limit:1 %}
+  <section class="style4 wrapper container">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3> {% if post.image %}
+    <a class="image featured">
+      <img src="post-images/{{post.image}}" />
+    </a>
+    {% endif %} {{ post.excerpt }}
+    <ul class="actions">
+      <li><a href="{{ site.url }}{{ post.url }}" class="button">Read More</a></li>
+    </ul>
+  </section>
+  {% endfor %}
 </article>
 
 <!-- CTA -->
 <section id="cta">
 
-    <header>
-        <h2>Are you <strong>ready</strong>?</h2>
-        <p>Early-bird registrations are now open!</p>
-    </header>
-    <footer>
-        <ul class="buttons">
-            <li><a href="eventbrite.html" class="button special">Sign me up!</a></li>
-        </ul>
-    </footer>
+  <header>
+    <h2>Are you <strong>ready</strong>?</h2>
+    <p>Early-bird registrations are now open!</p>
+  </header>
+  <footer>
+    <ul class="buttons">
+      <li><a href="eventbrite.html" class="button special">Sign me up!</a></li>
+    </ul>
+  </footer>
 
 </section>
