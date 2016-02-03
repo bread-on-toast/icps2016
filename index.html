@@ -1,6 +1,4 @@
----
-layout: landing-page
----
+--- layout: landing-page ---
 
 <!-- Main -->
 <article id="main">
@@ -13,8 +11,18 @@ layout: landing-page
 
     <div id="world-map" style="width: 600px; height: 400px"></div>
     <script>
-      $(function() {
-        $('#world-map').vectorMap();
+      $('#world-map').vectorMap({
+        map: 'world_mill',
+        series: {
+          regions: [{
+            values: heatData,
+            scale: ['#C8EEFF', '#0071A4'],
+            normalizeFunction: 'polynomial'
+          }]
+        },
+        onRegionTipShow: function(e, el, code) {
+          el.html(el.html() + ' ( ' + heatData[code] + ' participants)');
+        }
       });
     </script>
   </section>
@@ -26,14 +34,11 @@ layout: landing-page
     </header>
 
     {% for post in site.posts limit:1 %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    {% if post.image %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3> {% if post.image %}
     <a class="image featured">
       <img src="post-images/{{post.image}}" />
     </a>
-    {% endif %}
-
-    {{ post.excerpt }}
+    {% endif %} {{ post.excerpt }}
 
     <ul class="actions">
       <li><a href="{{ site.url }}{{ post.url }}" class="button">Read More</a></li>
