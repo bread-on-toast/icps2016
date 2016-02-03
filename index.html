@@ -13,6 +13,31 @@ layout: landing-page
 
     <div id="world-map" style="width: 600px; height: 400px"></div>
     <script>
+      var heatData = {
+        "AT": 13,
+        "CH": 1,
+        "CZ": 1,
+        "DE": 35,
+        "DK": 7,
+        "ES": 5,
+        "FI": 20,
+        "FR": 2,
+        "GB": 7,
+        "GR": 4,
+        "HR": 18,
+        "HU": 11,
+        "IT": 12,
+        "MX": 1,
+        "NL": 3,
+        "PL": 7,
+        "RO": 1,
+        "RS": 4,
+        "SE": 2,
+        "TR": 2,
+        "UA": 4,
+        "US": 2
+      };
+
       $('#world-map').vectorMap({
         map: 'world_mill',
         series: {
@@ -36,11 +61,14 @@ layout: landing-page
     </header>
 
     {% for post in site.posts limit:1 %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3> {% if post.image %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {% if post.image %}
     <a class="image featured">
       <img src="post-images/{{post.image}}" />
     </a>
-    {% endif %} {{ post.excerpt }}
+    {% endif %}
+
+    {{ post.excerpt }}
 
     <ul class="actions">
       <li><a href="{{ site.url }}{{ post.url }}" class="button">Read More</a></li>
