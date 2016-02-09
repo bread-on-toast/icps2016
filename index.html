@@ -5,96 +5,94 @@ layout: landing-page
 <!-- Main -->
 <article id="main">
 
-  <section class="style4 wrapper container">
-    <header class="special container">
-      <h2>Participant Heat Map</h2>
-      <span class="icon fa-map-o"></span>
-    </header>
+    <section class="style4 wrapper container">
+        <header class="special container">
+            <h2><a href="news.html">News</a></h2>
+            <span class="icon fa-newspaper-o"></span>
+        </header>
 
-    <div id="world-map" style="height: 600px"></div>
-    <script>
-      $(function(){
-        var heatData = {
-          "AT": 16,
-          "BA": 1,
-          "CH": 1,
-          "CZ": 1,
-          "DE": 40,
-          "DK": 7,
-          "ES": 10,
-          "FI": 21,
-          "FR": 2,
-          "GB": 11,
-          "GR": 5,
-          "HR": 22,
-          "HU": 14,
-          "IT": 14,
-          "MA": 1,
-          "MX": 3,
-          "NL": 4,
-          "NO": 1,
-          "PL": 8,
-          "PT": 1,
-          "RO": 2,
-          "RS": 6,
-          "SE": 2,
-          "TR": 2,
-          "UA": 8,
-          "US": 4,
-          "IN": 2
-        };
+        {% for post in site.posts limit:1 %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {% if post.image %}
+        <a class="image featured"><img src="post-images/{{post.image}}"/></a>
+        {% endif %}
 
-        $('#world-map').vectorMap({
-          map: 'world_mill',
-          series: {
-            regions: [{
-              values: heatData,
-              scale: ['#C8EEFF', '#0071A4'],
-              normalizeFunction: 'polynomial'
-            }]
-          },
-          onRegionTipShow: function(e, el, code) {
-            el.html(el.html() + ' - ' + heatData[code] + ' participants');
-          }
-        });
-      });
-    </script>
-  </section>
+        {{ post.excerpt }}
 
-  <section class="style4 wrapper container">
-    <header class="special container">
-      <h2><a href="news.html">News</a></h2>
-      <span class="icon fa-newspaper-o"></span>
-    </header>
+        <ul class="actions">
+            <li><a href="{{ site.url }}{{ post.url }}" class="button">Read More</a></li>
+        </ul>
+        {% endfor %}
+    </section>
 
-    {% for post in site.posts limit:1 %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    {% if post.image %}
-    <a class="image featured">
-      <img src="post-images/{{post.image}}" />
-    </a>
-    {% endif %}
+    <section class="style4 wrapper container">
+        <header class="special container">
+            <h2>Participant Map</h2>
+            <span class="icon fa-map-o"></span>
+        </header>
 
-    {{ post.excerpt }}
+        <div id="world-map" style="height: 600px"></div>
+        <script>
+            $(function() {
+                var heatData = {
+                    "AT": 16,
+                    "BA": 1,
+                    "CH": 1,
+                    "CZ": 1,
+                    "DE": 40,
+                    "DK": 7,
+                    "ES": 10,
+                    "FI": 21,
+                    "FR": 2,
+                    "GB": 11,
+                    "GR": 5,
+                    "HR": 22,
+                    "HU": 14,
+                    "IT": 14,
+                    "MA": 1,
+                    "MX": 3,
+                    "NL": 4,
+                    "NO": 1,
+                    "PL": 8,
+                    "PT": 1,
+                    "RO": 2,
+                    "RS": 6,
+                    "SE": 2,
+                    "TR": 2,
+                    "UA": 8,
+                    "US": 4,
+                    "IN": 2
+                };
 
-    <ul class="actions">
-      <li><a href="{{ site.url }}{{ post.url }}" class="button">Read More</a></li>
-    </ul>
-    {% endfor %}
-  </section>
+                $('#world-map').vectorMap({
+                    map: 'world_mill',
+                    series: {
+                        regions: [{
+                            values: heatData,
+                            scale: ['#C8EEFF', '#0071A4'],
+                            normalizeFunction: 'polynomial'
+                        }]
+                    },
+                    onRegionTipShow: function(e, el, code) {
+                        el.html(el.html() + ' - ' + heatData[code] + ' participants');
+                    }
+                });
+            });
+        </script>
+    </section>
 </article>
 
 <!-- CTA -->
 <section id="cta">
 
-  <header>
-    <h2>Are you <strong>ready</strong>?</h2>
-    <p>Early-bird registrations are now open!</p>
-  </header>
-  <footer>
-    <ul class="buttons">
-      <li><a href="eventbrite.html" class="button special">Sign me up!</a></li>
-    </ul>
-  </footer>
+    <header>
+        <h2>Are you <strong>ready</strong>?</h2>
+        <p>Early-bird registrations are now open!</p>
+    </header>
+    <footer>
+        <ul class="buttons">
+            <li><a href="eventbrite.html" class="button special">Sign me up!</a></li>
+        </ul>
+    </footer>
 
 </section>
