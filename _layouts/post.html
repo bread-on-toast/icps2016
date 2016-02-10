@@ -2,22 +2,18 @@
 layout: default
 ---
 
-<header class="special container">
+<section class="style4 wrapper container">
+  <header class="special container">
     <h2 class="post-title">{{ page.title }}</h2>
     <span class="icon {{page.icon}}"></span>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    {% if page.image %}
-    <a class="image featured">
-        <img src="post-images/{{page.image}}" />
-    </a>{% endif %}
-</header>
+    {% if page.image %} <a class="image featured">
+      <img src="post-images/{{page.image}}" />
+    </a> {% endif %}
+  </header>
 
-<section class="style4 wrapper container">
-    {{ content }}
+  {{ content }}
+
+  {% if page.previous %} <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
+  {% if page.next %} <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
 </section>
-
-<footer>
-    {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %} {% if page.next %}
-    <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
-</footer>
