@@ -8,7 +8,7 @@
 */
 
 /* Reset */
-	
+
 	html, body, div, span, applet, object, header, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -56,32 +56,6 @@
 		box-sizing: border-box;
 	}
 
-/* - Implementing toy story 2 - */
-
-
-/* String Theory. */
-
-/* Yes, it is empty and useless, just like the empty set. */
-
-/* And quantum mechanics, quantum mechanics cannot explain dank memes. */
-
-
-/* Life is meaningless, just like meaning. */
-
-/* Arbitrary chimpunks cross the road. To find somewhere to park hhhhhAAAAAAAHAHAHAHAHAHAHAHAHAHAHA. */
-
-/* Only a select few can be selected fewly. */
-
-
-/* Ladies and gentlemen, please welcome a subset of ladies or gentlemen */ 
-
-
-/* The fullstops are random. */
-
-
-/* - #preyforparis - */
-
-
 /* Containers */
 
 	.container {
@@ -109,32 +83,6 @@
 
 	.container {
 		width: 1400px;
-	}
-
-	@media screen and (max-width: 2560px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 118.75%;
-			min-width: 95%;
-		}
-
-		.container.\37 5\25 {
-			width: 71.25%;
-		}
-
-		.container.\35 0\25 {
-			width: 47.5%;
-		}
-
-		.container.\32 5\25 {
-			width: 23.75%;
-		}
-
-		.container {
-			width: 95%;
-		}
-
 	}
 
 	@media screen and (max-width: 1680px) {
