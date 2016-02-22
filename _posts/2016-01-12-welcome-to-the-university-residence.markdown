@@ -4,6 +4,8 @@ title: "Welcome to the University Residence"
 date: "2016-01-12"
 icon: "fa-bed"
 image: "residence.jpg"
+author: David Reuben Grech
+email: david@icps2016.com
 ---
 
 During the conference, guests will be provided with the best student accommodation Malta has to offer. We will have two types of accommodation available ranging from small apartments which can host 3 attendees to large townhouses which can host up to 20 guests. The registration form will include an option to choose whether you prefer to stay in a smaller or larger apartment and who are your preferred roommates.

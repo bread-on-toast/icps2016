@@ -3,6 +3,8 @@ layout: post
 title: "One week of registrations"
 date: "2016-02-09"
 icon: "fa-percent"
+author: David Reuben Grech
+email: david@icps2016.com
 ---
 
 Ladies and gentlemen, it has already been a week since registrations opened and we already have over 200 people signed up. This seems like it's going to be a breathtaking event so I advise you to register as early as possible because we're selling like fresh pastizzi!
