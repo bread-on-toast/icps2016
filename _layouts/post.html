@@ -6,11 +6,10 @@ layout: default
   <header class="special container">
     <h2 class="post-title">{{ page.title }}</h2>
     <span class="icon {{page.icon}}"></span>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }} {% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <a href="mailto:{{ page.email }}">{{ page.author }}</a> {% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {% if page.image %} <a class="image featured">
       <img src="post-images/{{page.image}}" />
     </a> {% endif %}
-    {% if page.author %}<p> by <a href="mailto:{{ page.email }}">{{ page.author }}</a> </p>{% endif %}
   </header>
 
   {{ content }}
