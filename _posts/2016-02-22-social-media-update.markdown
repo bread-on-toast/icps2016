@@ -3,7 +3,7 @@ layout: post
 title: "Social Media Update"
 date: "2016-02-22"
 icon: "fa-instagram"
-image: "cropped_group.jpg"
+image: "group.jpg"
 author: David Reuben Grech
 email: david@icps2016.com
 ---
