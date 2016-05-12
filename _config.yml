@@ -4,7 +4,7 @@ email: info@icps2016.com
 description: > # this means to ignore newlines until "baseurl:"
   the website for the International Conference for Physics Students 2016 - Malta
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://icps2016.com" # the base hostname & protocol for your site
+url: "http://icps2016.com" # the base hostname & protocol for your site
 twitter_username: icps2016
 facebook_username: icps2016
 github_username:  norbertbonnici
