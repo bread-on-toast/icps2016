@@ -1,5 +1,5 @@
   @import url("font-awesome.min.css");
-  @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+  @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
   /* Reset */
 
   html, body, div, span, applet, object, header, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1600,7 +1600,6 @@
   }
   .wrapper.style2 {
       background-color: #808080;
-      background-image: url("images/light-bl.svg"), url("images/light-br.svg");
       background-position: bottom left, bottom right;
       background-repeat: no-repeat, no-repeat;
       background-size: 25em, 25em;
@@ -1730,9 +1729,9 @@
       transition: all 0.2s ease-in-out;
       background: rgba(188, 202, 206, 0.15);
   }
-  /*#header nav ul li.current > a {
+  #header nav ul li.current > a {
 					font-weight: 900;
-				}*/
+				}
 
   #header.reveal {
       -moz-animation: reveal-header 0.5s;
@@ -1840,7 +1839,6 @@
   #banner {
       background-attachment: scroll, scroll, scroll, fixed;
       background-color: #11c1f2;
-      background-image: url("images/light-bl.svg"), url("images/light-br.svg");
       background-position: bottom left, bottom right, top left, top center;
       background-repeat: no-repeat, no-repeat, repeat, no-repeat;
       background-size: 25em, 25em, auto, cover;
@@ -1899,7 +1897,6 @@
   /* Main */
 
   #main {
-      background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
       background-position: top left, top right, bottom left, bottom right;
       background-repeat: no-repeat;
       background-size: 25em;
@@ -1926,7 +1923,6 @@
   #cta {
       background-attachment: scroll, scroll, scroll, fixed;
       background-color: #11c1f2;
-      background-image: url("images/light-tl.svg"), url("images/light-tr.svg");
       background-position: top left, top right, top left, bottom center;
       background-repeat: no-repeat, no-repeat, repeat, no-repeat;
       background-size: 25em, 25em, auto, cover;

@@ -1,18 +1,7 @@
 <!-- Header -->
 <header id="header" class="skel-layers-fixed">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<!-- <script>
-$(function(){
-  $('a').each(function() {
-    if ($(this).prop('href') == window.location.href) {
-      $(this).addClass('current');
-    }
-  });
-});
-</script> -->
 
-<!-- Changes done : introduced a js script below which gets current url , matches it with one of the menu urls, highlights the match -->
-<!-- Nothing else was changed except for main css, commented the previous js and the relevant #header -->
     <h1 id="logo"><a href="{{ site.url }}">ICPS 2016 <span>Malta</span></a></h1>
     <nav id="nav">
         <ul>
@@ -20,64 +9,46 @@ $(function(){
                 <a id="first" href="{{ site.url }}">Home</a>
                 <ul>
                     <li class="submenu">
-                        <a id="first" href="{{ site.url }}/location/index.html">Location</a>
+                        <a href="{{ site.url }}/location/index.html">Location</a>
                         <ul>
-                            <li id="first"><a href="{{ site.url }}/location/arrival.html">Arrival</a></li>
-                            <li id="first"><a href="{{ site.url }}/location/accommodation.html">Accommodation</a></li>
-                            <li id="first"><a href="{{ site.url }}/location/malta.html">The islands</a></li>
-                            <li id="first"><a href="{{ site.url }}/location/uom.html">University of Malta</a></li>
+                            <li><a href="{{ site.url }}/location/arrival.html">Arrival</a></li>
+                            <li><a href="{{ site.url }}/location/accommodation.html">Accommodation</a></li>
+                            <li><a href="{{ site.url }}/location/malta.html">The islands</a></li>
+                            <li><a href="{{ site.url }}/location/uom.html">University of Malta</a></li>
                         </ul>
                     </li>
                     <li class="submenu">
                         <a href="{{ site.url }}/programme/timetable.html">Programme</a>
                         <ul>
-                            <li id="first"><a href="{{ site.url }}/programme/timetable.html">Timetable</a></li>
-                            <li id="first"><a href="{{ site.url }}/programme/guests.html">Guest Lectures</a></li>
-                            <li id="first"><a href="{{ site.url }}/programme/students.html">Student Lectures</a></li>
-                            <li id="first"><a href="{{ site.url }}/programme/workshops.html">Workshops</a></li>
-                            <li id="first"><a href="{{ site.url }}/programme/excursions.html">Excursions</a></li>
-                            <li id="first"><a href="{{ site.url }}/programme/events.html">Social Events</a></li>
-                            <li id="first"><a href="{{ site.url }}/programme/agm.html">AGM</a></li>
-                            <li id="first"><a href="{{ site.url }}/programme/iaps.html">IAPS Workshops</a></li>
+                            <li><a href="{{ site.url }}/programme/timetable.html">Timetable</a></li>
+                            <li><a href="{{ site.url }}/programme/guests.html">Guest Lectures</a></li>
+                            <li><a href="{{ site.url }}/programme/students.html">Student Lectures</a></li>
+                            <li><a href="{{ site.url }}/programme/workshops.html">Workshops</a></li>
+                            <li><a href="{{ site.url }}/programme/excursions.html">Excursions</a></li>
+                            <li><a href="{{ site.url }}/programme/events.html">Social Events</a></li>
+                            <li><a href="{{ site.url }}/programme/agm.html">AGM</a></li>
+                            <li><a href="{{ site.url }}/programme/iaps.html">IAPS Workshops</a></li>
                         </ul>
                     </li>
-                    <li id="first"><a href="{{ site.url }}/organisers.html">Organisers</a></li>
-                    <li id="first"><a href="{{ site.url }}/faq.html">FAQ</a></li>
+                    <li><a href="{{ site.url }}/organisers.html">Organisers</a></li>
+                    <li><a href="{{ site.url }}/faq.html">FAQ</a></li>
                 </ul>
             </li>
-            <li><a id="sec" href="{{ site.url }}/news.html">News</a></li>
-            <li><a id="trd" href="{{ site.url }}/icps.html">ICPS</a></li>
-            <li><a id="fth" href="{{ site.url }}/iaps.html">IAPS</a></li>
-            <li><a id="fft" href="{{ site.url }}/supporters.html">Supporters</a></li>
-            <!-- <li><a id="six" href="{{ site.url }}/eventbrite.html" class="button special">Registration</a></li> -->
+            <li><a href="{{ site.url }}/news.html">News</a></li>
+            <li><a href="{{ site.url }}/icps.html">ICPS</a></li>
+            <li><a href="{{ site.url }}/iaps.html">IAPS</a></li>
+            <li><a href="{{ site.url }}/supporters.html">Supporters</a></li>
         </ul>
     </nav>
 
-    <script language="JavaScript">
-    var x=window.location.href;
-    if(x==="http://icps2016.com/" || x==="http://icps2016.com/location/index.html" || x==="http://icps2016.com/programme/timetable.html" || x==="http://icps2016.com/organisers.html" || x==="http://icps2016.com/faq.html" || x==="http://icps2016.com/location/arrival.html" || x==="http://icps2016.com/location/accommodation.html" || x==="http://icps2016.com/location/malta.html" || x==="http://icps2016.com/location/uom.html" || x==="http://icps2016.com/programme/guests.html" || x==="http://icps2016.com/programme/students.html" || x==="http://icps2016.com/programme/workshops.html" || x==="http://icps2016.com/programme/excursions.html" || x==="http://icps2016.com/programme/events.html" || x==="http://icps2016.com/programme/agm.html" || x==="http://icps2016.com/programme/iaps.html") {
-      document.getElementById("first").style.backgroundColor="#808080";
-      document.getElementById("first").style.color="white";
-    }
-    else if(x==="http://icps2016.com/news.html") {
-      document.getElementById("sec").style.backgroundColor="#808080";
-      document.getElementById("sec").style.color="white";
-    }
-    else if(x==="http://icps2016.com/icps.html") {
-      document.getElementById("trd").style.backgroundColor="#808080";
-      document.getElementById("trd").style.color="white";
-    }
-    else if(x==="http://icps2016.com/iaps.html") {
-      document.getElementById("fth").style.backgroundColor="#808080";
-      document.getElementById("fth").style.color="white";
-    }
-    else if(x==="http://icps2016.com/supporters.html") {
-      document.getElementById("fft").style.backgroundColor="#808080";
-      document.getElementById("fft").style.color="white";
-    }
-    // else if(x==="http://icps2016.com/eventbrite.html" || x==="http://icps2016.com/registration.html") {
-    //   document.getElementById("six").style.backgroundColor="#808080";
-    //   document.getElementById("six").style.color="white";
-    // }
+    <script>
+      $(function(){
+        $('a').each(function() {
+          if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('current');
+          }
+        });
+      });
     </script>
+
 </header>
