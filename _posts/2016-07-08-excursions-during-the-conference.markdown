@@ -3,7 +3,7 @@ layout: post
 title: "Excursions during the conference"
 date: "2016-07-08"
 icon: "fa-suitcase"
-image: "location/images/valletta.jpg"
+image: "valletta.jpg"
 author: David Reuben Grech
 email: david@icps2016.com
 ---
