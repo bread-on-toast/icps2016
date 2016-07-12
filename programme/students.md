@@ -9,3 +9,5 @@ image: student-lectures.jpg
 Student lecture [abstracts](student-lectures.html)
 
 Student poster [abstracts](student-posters.html)
+
+Science slam [abstracts](student-slam.html)
