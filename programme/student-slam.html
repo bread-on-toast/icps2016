@@ -9,8 +9,8 @@ title: Science Slam abstracts
     <ul class="posts">
         {% for slam in site.data.slam %}
         <li class="wrapper style1">
-            <h2><a href="{{ post.url }}">{{ slam.title }}</a></h2>
-            <h2><a href="mailto:{{ site.data.slam.email }}">{{ slam.name slam.surname }}</a></h2>
+            <h2>{{ slam.title }}</h2>
+            <h3><a href="mailto:{{ site.data.slam.email }}">{{ slam.name slam.surname }}</a></h3>
 
             {{ slam.abstract }}
 
