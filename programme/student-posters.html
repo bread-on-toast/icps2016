@@ -3,3 +3,17 @@ layout: single-page
 icon: fa-book
 title: Student posters abstracts
 ---
+
+<section class="wrapper style4 container">
+    <ul class="posts">
+        {% for poster in site.data.poster %}
+        <li class="wrapper style1">
+            <h2>{{ poster.title }}</h2>
+            <h3><a href="mailto:{{ poster.email }}">{{ poster.name }} {{ poster.surname }}</a></h3>
+
+            {{ poster.abstract }}
+
+        </li>
+        {% endfor %}
+    </ul>
+</section>
