@@ -9,7 +9,7 @@ title: Student lectures abstracts
         {% for lecture in site.data.lecture %}
         <li class="wrapper style1">
             <h2>{{ lecture.title }}</h2>
-            <h3><a href="mailto:{{ lecture.email }}">{{ lecture.name }} {{ lecture.surname }}</a></h3>
+            <h3><a href="mailto:{{ lecture.email }}">{{ lecture.name }}</a></h3>
 
             {{ lecture.abstract }}
 
