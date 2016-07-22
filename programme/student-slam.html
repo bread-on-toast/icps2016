@@ -1,0 +1,20 @@
+---
+layout: single-page
+icon: fa-book
+title: Science Slam abstracts
+---
+
+
+<section class="wrapper style4 container">
+    <ul class="posts">
+        {% for slam in site.data.slam %}
+        <li class="wrapper style1">
+            <h2>{{ slam.title }}</h2>
+            <h3><a href="mailto:{{ slam.email }}">{{ slam.name }}</a></h3>
+
+            {{ slam.abstract }}
+
+        </li>
+        {% endfor %}
+    </ul>
+</section>
