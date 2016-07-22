@@ -337,6 +337,21 @@
 
     This talk gives an overview of two research field which are developing cryptographic systems that are thought to be robust against quantum computer attacks. One field implements quantum mechanics is the protocols, essentially fighting fire with fire. The other field implements mathematics which cannot easily be solved with quantum algorithms, therefore there is no advantage in using a quantum computer to try break the system."
 -
+    name: Mr. Simo Tuomisto
+    email: simo.tuomisto@helsinki.fi
+    title: Simulating a sun with your computer
+    abstract: "Turbulent movement of ionized plasma within solar convection zone that spans from the radiative zone at r on Ro approximately 0.7 to the photosphere visible to the naked eye is the main cause of large scale magnetic phenomena in the sun. These magnetic fields in turn result in e.g. solar activity cycles, sunspots and flares.
+
+    Even though these effects are widely known and documented, studying their creation is hard mathematically as the system consists of Navier-Stokes equations coupled with Maxwell equations under the extreme circumstances of the sun.
+
+    Mean field theory was created in the 20th century to ease these calculations. These theories average over turbulence and obtain a mean electromotive force that drives the solar dynamo. Mean field theory was very successful in providing insight of solar phenomena, but due to their generality they lose some specificity.
+
+    Within last few decades solving these equations by straight integration with magnetohydrodynamic simulation programs has become an another option, but due to computational costs it is still hard to get knowledge of the processes that create solar magnetic fields.
+
+    In my masters thesis I implemented a mean field simulator routines to a widely used magnetohydrodynamic simulator and compared results from mean field simulations to ones done by large scale simulations. The goal was to make the gap between theory and widely used methods in computational astrophysics shorter.
+
+    In my lecture I will try to explain how solar magnetic field is generated, how turbulence can be "averaged over" in mean field theories and how to simulate a simple version of the sun in your computer."
+-
     name: Mr. Augustin Orešković
     email: augustin.oreskovic@gmail.com
     title: Physical String - Analysis of the Effect String Properties have on String Instrument Sound
