@@ -340,7 +340,7 @@
     name: Mr. Simo Tuomisto
     email: simo.tuomisto@helsinki.fi
     title: Simulating a sun with your computer
-    abstract: "Turbulent movement of ionized plasma within solar convection zone that spans from the radiative zone at r/Ro ~ 0.7 to the photosphere visible to the naked eye is the main cause of large scale magnetic phenomena in the sun. These magnetic fields in turn result in e.g. solar activity cycles, sunspots and flares.
+    abstract: "Turbulent movement of ionized plasma within solar convection zone that spans from the radiative zone at r/Ro approximately 0.7 to the photosphere visible to the naked eye is the main cause of large scale magnetic phenomena in the sun. These magnetic fields in turn result in e.g. solar activity cycles, sunspots and flares.
 
     Even though these effects are widely known and documented, studying their creation is hard mathematically as the system consists of Navier-Stokes equations coupled with Maxwell's equations under the extreme circumstances of the sun.
 
