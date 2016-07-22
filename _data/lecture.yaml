@@ -350,7 +350,7 @@
 
     In my masters thesis I implemented a mean field simulator routines to a widely used magnetohydrodynamic simulator and compared results from mean field simulations to ones done by large scale simulations. The goal was to make the gap between theory and widely used methods in computational astrophysics shorter.
 
-    In my lecture I will try to explain how solar magnetic field is generated, how turbulence can be "averaged over" in mean field theories and how to simulate a simple version of the sun in your computer."
+    In my lecture I will try to explain how solar magnetic field is generated, how turbulence can be averaged over in mean field theories and how to simulate a simple version of the sun in your computer."
 -
     name: Mr. Augustin Orešković
     email: augustin.oreskovic@gmail.com
