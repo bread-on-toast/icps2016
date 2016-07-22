@@ -1,0 +1,51 @@
+---
+-
+    name: Mr. Robert Rauter
+    email: robert.rauter@tu-dortmund.de
+    title: 'The Barcode conspiracy - a Physicist''s point of view'
+    abstract: The Barcode conspiracy is quite a big deal in Germany - but what is it really about. Time for a Physicist to really address this matter - in a fun but still scientific way. 
+-
+    name: Mr. Wouter Verstraelen
+    email: verstraelenwouter@hotmail.com
+    title: Quantum Mechanics and Steam Engines
+    abstract: The extensive study of phenomenological thermodynamics began in the early 19th century by the work of Joule, Carnot etc. for the practical reasons of optimizing steam engines. It took quite a bit more time  before its microscopic counterpart, the statistical mechanics of Boltzmann and Gibbs became widely accepted. Although some rather philosophical questions about the arrow of time etc. remain open, this statistical mechanics has been succesfully unified with quantum mechanics by now. Some foundations of this were realized by Von Neumann, but the last decade a renewed interest has arisen in the thermalization of many-body quantum systems because of the experimental access to quantum systems using cold gasses. We will take a look at how work can be extracted from integrable quantum systems, described by a Generalized Gibbs Ensemble, a concept introduced by E.T. Jaynes in 1957. Thus, we will take a look at the questions posed by Carnot et al. from a modern Quantum Statistical perspective.
+-
+    name: Mr. Vlad-Cristian Lupu
+    email: lupu_vlad@yahoo.com
+    title: Quantum model of space and its implications
+    abstract: 'The highest aim in theoretical physics, combining the quantum and relativity theories in a new approach: a qualitative model of a quantum space, in which some physical phenomenons are explained by the properties of a quantum space and its interaction with matter. It is based on the idea of a ''''quantum of space'''' and the way it behaves when being occupied by matter, its interaction with surrounding ''''quantum space locations'''' and implications on the behavior of time. The model offers a intuitive explanation of gravitation, quantum inseparability and some other relativistic effects. '
+-
+    name: Ms. Ana Milinović
+    email: amilinov@dominis.phy.hr
+    title: What would Aristotle say?
+    abstract: "Throughout history, it is possible to see scientific progress alongside big societal changes which allowed for them to happen. But can we say when physics started? What is physics? And what would Aristotle say to our modern scientific method?\nThese are some of the questions I will discuss in my slam lecture. They are without a clear answer so what will be covered is a couple of possible answers and their arguments, leaving you to think for yourself."
+-
+    name: Ms. Stina Scheer
+    email: stina.scheer@aei.mpg.de
+    title: 'We''ve got them!'
+    abstract: On Feb 11th there was a big party at my institute. The reason for that was the first detection of gravitational waves. I like to explain to you how this was actually done and why this is such a big deal. You will also learn what spacetime and jello have in common.
+-
+    name: Miss Valeriya Mykhaylova
+    email: lemichajlowa@gmail.com
+    title: Phase diagrams in QCD
+    abstract: "QCD phase diagram is a conventional graph of strongly interacting matter phase transitions. Although the description of strong interactions is a main part of quantum chromodynamics, phase transitions in QCD can be described using traditional thermodynamic and statistical physics methods.\nI formulate a transparent phenomenological model for the phase transition between quark-gluon plasma and hadronic phase which is approximated as an ideal pion gas. Comparing thermodynamic parameters (for example pressure) of two different hadronic states of QCD matter one can see an inconsistency between pion gas and quark-gluon plasma (QGP). It means that classical thermodynamic methods are not enough and we shall use another approximation for the diagram - MIT Bag Model, which corrects thermodynamic parameters of pion gas and QGP to make the phase transition possible.\n\nReferences:\n1. Vogt R., Ultrarelativistic Heavy-Ion Collisions.  First Edition,  Elsevier, Amsterdam, The Netherlands ( 2007)\n\n2. Braun-Munzinger P., Wambach J., The Phase Diagram of Strongly Interacting Matter. Rev. Mod. Phys. Vol 81 (2009) 1031-1050"
+-
+    name: Ms. Aleksandra Snoch
+    email: ola.snoch@gmail.com
+    title: Prototype of Time-of-Flight detector for NA61/SHINE experiment
+    abstract: 'The NA61/SHINE experiment is a heavy-ion, fixed target experiment, constructed to investigate Quark Gluon Plasma and it''s properties, and to describe the phase diagram of strongly interacting matter. One of the parts of the detector is the Time-of-Flight system – necessary for particle identification. Because of its meaning for the experiment, constant improvements are needed. In my work, I tried to decrease the costs of the detector without changing the most important parameters (time resolution). The prototype was constructed using the scintillation crystals and silicon photomultipliers. To obtain the time resolution of the prototype the SiPM waveforms were recorded and analyzed with the software constant fraction algorithm developed for this purpose.'
+-
+    name: Ms. Maria Gieysztor
+    email: maria.gieysztor@gmail.com
+    title: PEDOT:PSS as a transparent electrode in perovskite solar cells
+    abstract: "Perovskites are a group of compounds crystallizing in a distinctive crystal structure ABX$_3$, called later perovskite structure. They appear in both, natural (e.g. calcium titanate) and synthetic (e.g. CH$_3$NH$_3$PbI$_3$) form. CH$_3$NH$_3$PbI$_3$ found use in solar cells, called later perovskite solar cells [1,2]. It is a material that belongs to mixed organic-inorganic lead halide perovskites. Thanks to their dual nature, they can be used for flexible, semi-translucent and easy in fabrication solar cells with efficiencies catching up those based on polycrystalline silicon – 22.1% [3]. Usually, in perovskite solar cells the transparent (bottom) electrode is made of ITO, which is a relatively expensive material. That is why research on substitutes is carried out.\n\nMy talk will be divided into two parts. In the first one I will introduce perovskites along with discussing their structure, main properties and applications in solar cells. Later I will present results of my work on PEDOT:PSS PH1000 as a possible transparent electrode in perovskite solar cells.\n\n[1] O. Malinkiewicz, A. Yella, Y. H. Lee, G. M. Espallargas, M. Grätzel, M. K. Nazeeruddin, H. J. Bolink, Perovskite solar cells employing organic charge-transport layers, Nature Photonics 2014, 8, 128-132.\n\n[2] H. Jung, N. Park, Perovskite solar cells: from materials to devices, Small, 2014, 11, 10-25.\n\n[3] NREL, available on-line: www.nrel.gov/ncpv/images/efficiency_chart.jpg"
+-
+    name: Miss Joanna Peszka
+    email: joanna.peszka@gmail.com
+    title: Exclusive Jet Production at the LHC
+    abstract: Jets are strongly collimated particle beams produced by the hadronization of quarks or gluons, collectively called partons, and are observed in the proton-proton collisions at the Large Hadron Collider. Properties of these objects are measured by describing their energy, transverse momentum, azimuthal angle and pseudorapidity. There are different processes for the jets production, in some cases interacting protons stay intact, but in the others protons decay to form a shower of particles. It is happening because of quantum chromodynamics that allows to exist only colorless partons.  In exclusive jet production event (pp->p+jet+jet+p) theoretical predictions are not entirely consistent with the observed results, because some particles appear in regions of pseudorapidity where gaps are expected. For this reason exclusive jet production events were investigated.
+-
+    name: Mr. Andre Sobotta
+    email: andre.sobotta@hhu.de
+    title: On children, bathtubes and Laser
+    abstract: How to explain the LASER principle to non-scientists in a more or less accurate way...
