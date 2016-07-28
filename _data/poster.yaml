@@ -245,3 +245,19 @@
     email: alexandra.bojar@gmail.com
     title: Molybdenum bronzes - synthesis, structure and physical properties
     abstract: "A new transition metal molybdenum bronzes have received much attention due to their electronic and structural properties. These have found applications as electrode materials in solid state secondary lithium batteries and electrochemical sensors. By solid state synthesis, the series of samples was obtained for compounds of a formula MxMoO3 (for M = Cu, Bi). Crystallographic parameters have been determined by X-ray diffraction (XRD) analysis. The results are reported for a set of powder X-ray diffraction patterns for the product materials corresponding to various initial metal contents. Measurements of electrical resistivity and specific heat have been also carried out. On our poster we will discuss the synthesis methods, our results and future perspectives."
+-
+    name: Mr Anthonio Barroso
+    email: a.barroso@campus.fct.unl.pt
+    title: Automation of parts in a XRF spectrometer with tri-axial geometry
+    abstract: "This work has the main purpose of automate parts of a XRF spectrometer with a secondary target in a triaxial geometry existing in LIBPhys, DF, FCT-UNL.
+
+    The existent XRF spectrometer only allows users to have one filter (silver (Ag) 25 Ãm), one secondary target (molybdenum (Mo)) and one sample. With this setup, users should turn off the X-ray tube in each measurement, decreasing the lifetime of it, because of the effects of ramp up and ramp down of its applied current. Another problem on it is the number of times that users should change samples and be exposed to radiation. The restriction of having only one secondary target and one filter, doesn’t allow changing them without turning off the system.
+
+    COMET AG, in [1], defines continuous operation as an operation that switches ON/OFF maximum 15 times per day [1]. It also advises to slow ramp-up (> 1 s of high voltage when switching ON the tube) and ramp-down (> 300 ms of high voltage when switching OFF the tube) [1].
+
+    This new system allows users to have up to six samples on a cylindrical rotatory platform, moved by a stepper motor and controlled by an Arduino, up to four secondary targets (Nickel (Ni), Mo, Tantalum (Ta) and Bismuth (Bi)) in a sliding platform moved by a linear actuator and up to five filter brackets (No Filter, Aluminum (Al) 100 Ãm, Aluminum-Titanium (AlTi), Aluminum-Titanium-Copper (AlTiCu) and Ag).
+
+    As it is possible to have up to six samples, four secondary targets and five filter brackets users do not need to turn off the x-ray tube, increasing its lifetime. As users do not need to change samples so many times, their exposition to radiation is minimized. The access to different targets allows better lower limits of detection values throughout an extended atomic number region. The use of filters allows a more efficient monochromatization of the beam, which is of the utmost importance for several applications.
+
+    References
+    [1] Technical Services Business Unit X-ray, COMET AG, Life time of HP-Tubes, Service-Bulletin 2012/003"
