@@ -372,7 +372,15 @@
     name: Mr. Thomas Potocar
     email: thomas.potocar@gmx.net
     title: Nuclear reactor, neutrons and perfect-crystalls
-    abstract: 'A nuclear research reactor produce a neutron beam, which can be used for interferometry. The netplanes of a perfect silicon crystal serves as a beam splitter as part of the interferometer. We study the phase shift of the neutron beam, induced by a crystaline sample in the vicinity of the Bragg condition. Our calculations with the software ''IFMSIM'' are in good agreement with the observed data.'
+    abstract: 'Nuclear research reactors are located for instance in Vienna (Austria), Garching (Germany), Villigen (Switzerland), or Grenoble (France). They can be used e.g. to produce a neutron beam for neutron scattering experiments, tomography, as well as interferometry. Such an interferometer, which is similar to the one used for x-ray interferometry was successfully tested for the first time in 1974 in Vienna with thermal neutrons.
+
+    The extracted neutron beam of the reactor can pass through a crystalline medium. In this case the neutron beam changes its phase, however at a certain angle between the beam and the crystal (Bragg condition) an additional diffracted beam appears (beam splitter). Such beam splitters are used as part of a neutron-interferometer as well as a sample within this interferometer.
+
+    We study the phase shift of the neutron beam, induced by a crystalline sample in the vicinity of the Bragg condition. The interferometer with its phase shifter is necessary to measure this phase shift.
+
+    We also searched for further influences on the phase and found a sensitive dependence on the rocking angle, monochromator function and beam divergence. The rocking angle describes the alignment of the monochromator crystal relative to the interferometer. The monochromator function describes which monochromator is used (mosaicity of the crystal). While its neutron beam divergence depends on the wavelength.
+
+    Our calculations with the software 'IFMSIM' are in good agreement with the observed data.'
 -
     name: Mr. James Kneller
     email: j.kneller@hotmail.co.uk
