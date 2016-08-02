@@ -40,19 +40,18 @@ To help you prepare for the conference we made this checklist for you:
 **Important numbers and addresses:**
 
 *Accommodation:*
-University Residence
-Triq Robert Mifsud Bonnici
-Ħal Lija
-+356 2143 6168
+University Residence, Triq Robert Mifsud Bonnici, Ħal Lija
+
+phone: +356 2143 6168
 
 *Conference Venue:*
-Univeristy of Malta
-Msida, MSD 2080
+Univeristy of Malta, Msida, MSD 2080
 
 *Faith Garage (taxi service):*
-email: faithgarage@onvol.net
-+356 99 496 840
-+356 79 230 985
+
+email: [faithgarage@onvol.net](faithgarage@onvol.net)
+
+phone: +356 99 496 840 or +356 79 230 985
 
 *Emergency phone number in Malta:*
 112
