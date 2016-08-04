@@ -97,10 +97,13 @@ keywords: ICPS2016, ICPS, IAPS, physics, students, Malta, conference
 
 <!-- CTA -->
 <section id="cta">
-    <script>var days = countdown( new Date("Aug 11 2016"),null,countdown.DAYS ).toString();</script>
+    <script>
+    	var days = countdown( new Date("Aug 11 2016"),null,countdown.DAYS ).toString();
+    	document.getElementById("timeleft").innerHTML = days;​
+    </script>
 
     <body>
-        <h2>See you in <strong><script>days</script></strong> days!</h2>
+        <h2>See you in <strong id = "timeleft"></strong> days!</h2>
     </body>
 
 </section>
