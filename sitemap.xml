@@ -4,130 +4,166 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://icps2016.com/</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/index.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/arrival.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/accommodation.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/malta.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/location/uom.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/timetable.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/guests.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/programme/guest-abstracts.html</loc>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/students.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/programme/student-lectures.html</loc>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/programme/student-posters.html</loc>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/programme/student-slam.html</loc>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/workshops.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/excursions.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/events.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/agm.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/programme/iaps.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/organisers.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/faq.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/news.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/icps.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/iaps.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/supporters.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
-  <loc>http://icps2016.com/excursions-during-the-conference.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://icps2016.com/getting-to-registrations.html</loc>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/programme/abstracts.pdf</loc>
+  <lastmod>2016-08-05T01:15:52+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/eventbrite.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/few-days-left-till-icps2016.html</loc>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://icps2016.com/excursions-during-the-conference.html</loc>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/social-media-update.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/one-week-of-registrations.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 <url>
   <loc>http://icps2016.com/welcome-to-the-university-residence.html</loc>
-  <lastmod>2016-07-10T12:51:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-08-05T01:15:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
 </url>
 </urlset>
